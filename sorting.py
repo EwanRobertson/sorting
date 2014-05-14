@@ -1,4 +1,9 @@
 def swap(alist, index):
+    '''
+    This function swaps two items in a list.  
+    
+    The function takes a list and an index as inputs, and out outputs a list with two items swapped
+    '''   
     a = alist[index]
     b = alist[index+1]
     alist[index] = b
